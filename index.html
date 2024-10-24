@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>School Survey Form</h1>
+        <h2>Inspection report in respect of Said Bahadur ASDEO (M) Circle Utla</h2>
+
+        <form id="survey-form">
+            
+            <!-- Date Field -->
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <!-- Dropdown Field for School Name -->
+            <label for="school">Name of school/Place:</label>
+            <select id="school" name="school" required>
+                <option value="" disabled selected>Select from dropdown</option>
+                <option value="GPS Achelai">GPS Achelai</option>
+                <option value="GPS Akori">GPS Akori</option>
+                <option value="GPS Amrai Bala">GPS Amrai Bala</option>
+                <option value="GPS Amrai Payan">GPS Amrai Payan</option>
+                <option value="GPS Bagla Chanai">GPS Bagla Chanai</option>
+                <option value="GPS Bakro">GPS Bakro</option>
+                <option value="GPS Banjo Dakai">GPS Banjo Dakai</option>
+                <option value="GPS Bergali">GPS Bergali</option>
+                <option value="GPS Bori">GPS Bori</option>
+                <option value="GPS Chanai No-1">GPS Chanai No-1</option>
+                <option value="GPS Chanai No-2">GPS Chanai No-2</option>
+                <option value="GPS Chanai No-3">GPS Chanai No-3</option>
+                <option value="GPS Chanai-1">GPS Chanai-1</option>
+                <option value="GPS Chanai-2">GPS Chanai-2</option>
+                <option value="GPS Chanai-3">GPS Chanai-3</option>
+                <option value="GPS Dado (Utla)">GPS Dado (Utla)</option>
+                <option value="GPS Dagai">GPS Dagai</option>
+                <option value="GPS Dewal Gari Bala">GPS Dewal Gari Bala</option>
+                <option value="GPS Dewal Gari Payan">GPS Dewal Gari Payan</option>
+                <option value="GPS Dewal Ghari Bala">GPS Dewal Ghari Bala</option>
+                <option value="GPS Dewal Ghari Payan">GPS Dewal Ghari Payan</option>
+                <option value="GPS Dewal No-1">GPS Dewal No-1</option>
+                <option value="GPS Dewal No-2">GPS Dewal No-2</option>
+                <option value="GPS Dewal-1">GPS Dewal-1</option>
+                <option value="GPS Dewal-2">GPS Dewal-2</option>
+                <option value="GPS Gabai">GPS Gabai</option>
+                <option value="GPS Gori">GPS Gori</option>
+                <option value="GPS Gabasni">GPS Gabasni</option>
+                <option value="GPS Gani Chatra No-1">GPS Gani Chatra No-1</option>
+                <option value="GPS Gani Chatra No-2">GPS Gani Chatra No-2</option>
+                <option value="GPS Gani Chatra No-3">GPS Gani Chatra No-3</option>
+                <option value="GPS Gani Kot">GPS Gani Kot</option>
+                <option value="GPS Hayat Baig Banda">GPS Hayat Baig Banda</option>
+                <option value="GPS Jaba">GPS Jaba</option>
+                <option value="GPS Jalil Mangal Chai">GPS Jalil Mangal Chai</option>
+                <option value="GPS Kambila">GPS Kambila</option>
+                <option value="GPS Konda Mangal Chai">GPS Konda Mangal Chai</option>
+                <option value="GPS Kot-Gabai">GPS Kot-Gabai</option>
+                <option value="GPS Kotkey">GPS Kotkey</option>
+                <option value="GPS Kunda Mangal Chai">GPS Kunda Mangal Chai</option>
+                <option value="GPS Lyren">GPS Lyren</option>
+                <option value="GPS Mangal Chai No-1">GPS Mangal Chai No-1</option>
+                <option value="GPS Mangal Chai">GPS Mangal Chai</option>
+                <option value="GPS Mazghund">GPS Mazghund</option>
+                <option value="GPS Meman Banda">GPS Meman Banda</option>
+                <option value="GPS Mira Banda">GPS Mira Banda</option>
+                <option value="GPS Nakhtar Godar">GPS Nakhtar Godar</option>
+                <option value="GPS Naro Banda">GPS Naro Banda</option>
+                <option value="GPS Nogram">GPS Nogram</option>
+                <option value="GPS Palas">GPS Palas</option>
+                <option value="GPS Panawal">GPS Panawal</option>
+                <option value="GPS Parra Mangal Chai">GPS Parra Mangal Chai</option>
+                <option value="GPS Parwar Shah Banda">GPS Parwar Shah Banda</option>
+                <option value="GPS Pikrari">GPS Pikrari</option>
+                <option value="GPS Pola">GPS Pola</option>
+                <option value="GPS Qalandar Abad (Utla)">GPS Qalandar Abad (Utla)</option>
+                <option value="GPS Said Bawal Banda">GPS Said Bawal Banda</option>
+                <option value="GPS Sandwa No-1">GPS Sandwa No-1</option>
+                <option value="GPS Sandwa No-2">GPS Sandwa No-2</option>
+                <option value="GPS Sanilai">GPS Sanilai</option>
+                <option value="GPS Sar Koi Bala">GPS Sar Koi Bala</option>
+                <option value="GPS Sara Dara">GPS Sara Dara</option>
+                <option value="GPS Sarla">GPS Sarla</option>
+                <option value="GPS Satketar">GPS Satketar</option>
+                <option value="GPS Seri Chanai">GPS Seri Chanai</option>
+                <option value="GPS Seri Utmanzai No-2">GPS Seri Utmanzai No-2</option>
+                <option value="GPS Seri Utmanzai No-3">GPS Seri Utmanzai No-3</option>
+                <option value="GPS Shah Zaman Banda">GPS Shah Zaman Banda</option>
+                <option value="GPS Shalmani">GPS Shalmani</option>
+                <option value="GPS Shingrai">GPS Shingrai</option>
+                <option value="GPS Sokelai">GPS Sokelai</option>
+                <option value="GPS Spin Pati (Utla)">GPS Spin Pati (Utla)</option>
+                <option value="GPS Talai">GPS Talai</option>
+                <option value="GPS Toti Shah Banda">GPS Toti Shah Banda</option>
+                <option value="GPS Trait">GPS Trait</option>
+                <option value="GPS Utla">GPS Utla</option>
+                <option value="GPS Zaroullah Banda">GPS Zaroullah Banda</option>
+                <option value="SDEO office Topi">SDEO office Topi</option>
+                <option value="DC office Swabi">DC office Swabi</option>
+                <option value="DEO office Swabi">DEO office Swabi</option>
+            </select>
+
+            <!-- Purpose of Visit -->
+            <label for="purpose">Purpose of Visit:</label>
+            <select id="purpose" name="purpose" required>
+                <option value="S/V">S/V</option>
+                <option value="Meeting">Meeting</option>
+                <option value="Revisit">Revisit</option>
+            </select>
+
+            <!-- Distance Field -->
+            <label for="distance">Distance (KM) both sides:</label>
+            <input type="number" id="distance" name="distance" min="0" step="0.1" required>
+
+            <!-- Remarks/Action Taken Field with Checkboxes -->
+            <label for="remarks">Remarks/Action Taken:</label>
+            <div id="remarks-section">
+                <input type="checkbox" id="opened_staff_present_guidance" name="remarks" value="Schools were opened, staff were present & guidance was provided">
+                <label for="opened_staff_present_guidance">Schools were opened, staff were present & guidance was provided</label><br>
+
+                <input type="checkbox" id="official_work" name="remarks" value="Official work">
+                <label for="official_work">Official work</label><br>
+
+                <input type="checkbox" id="opened_staff_present" name="remarks" value="Schools were opened, staff was present">
+                <label for="opened_staff_present">Schools were opened, staff was present</label><br>
+
+                <input type="checkbox" id="classrooms_inspected_guidance" name="remarks" value="Classrooms were inspected & guidance was provided">
+                <label for="classrooms_inspected_guidance">Classrooms were inspected & guidance was provided</label><br>
+
+                <input type="checkbox" id="direction_improvement" name="remarks" value="Direction was given for improvement">
+                <label for="direction_improvement">Direction was given for improvement</label><br>
+
+                <input type="checkbox" id="students_engaged_guidance" name="remarks" value="Students were found engaged in activities & guidance was provided">
+                <label for="students_engaged_guidance">Students were found engaged in activities & guidance was provided</label><br>
+
+                <input type="checkbox" id="bps_14_promotion_meeting" name="remarks" value="For BPS-14 promotion DPC meeting">
+                <label for="bps_14_promotion_meeting">For BPS-14 promotion DPC meeting</label><br>
+
+                <input type="checkbox" id="enrollment_campaign" name="remarks" value="Enrollment Campaign">
+                <label for="enrollment_campaign">Enrollment Campaign</label><br>
+
+                <input type="checkbox" id="sst_dpc_meeting" name="remarks" value="For SST DPC meeting">
+                <label for="sst_dpc_meeting">For SST DPC meeting</label><br>
+
+                <!-- Other Option with Text Input -->
+                <input type="checkbox" id="other_remarks" name="remarks" value="Other">
+                <label for="other_remarks">Other:</label>
+                <input type="text" id="other_remarks_input" name="other_remarks_input" placeholder="Please specify..."><br>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
