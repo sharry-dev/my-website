@@ -46,6 +46,11 @@ input, select, textarea {
   font-size: 1em;
 }
 
+select[multiple] {
+  height: auto;
+  min-height: 150px;
+}
+
 input[type="checkbox"] {
   width: auto;
   margin-right: 8px;
